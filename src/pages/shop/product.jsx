@@ -11,7 +11,7 @@ export const Product = (props) => {
         </p>
         <p>${price}</p>
       </div>
-      <button>Add to Cart</button>
+      <button className="addToCartBtn">Add to Cart</button>
     </div>
   );
 };
